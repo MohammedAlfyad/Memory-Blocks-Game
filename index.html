@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="shortcut icon" type="image/icon" href="imgs/icon.jpg" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+      <div id="cong" class="">
+        <h1 class="congrats-text">Congratulations!</h1>
+        <span class="try"> Try again </span>
+      </div>
+    <div id="over" class="">
+      <span class="title"> Game Over &#128531; &#128531;</span>
+      <span class="try"> Try again </span>
+    </div>
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+    <div class="info-container">
+      <div class="name">Hello: <span></span></div>
+      <div class="time">Timer: <span>10:00</span></div>
+      <div class="tries">Wrong Tries: <span>0</span></div>
+    </div>
+    <div class="memory-game-blocks">
+      <div class="game-block" data-technology="zamalek">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/1.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="zamalek">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/1.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="ahly">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/2.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="ahly">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/2.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="ismaily">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/3.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="ismaily">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/3.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="liver">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/4.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="liver">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/4.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="totti">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/5.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="totti">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/5.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="chelse">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/6.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="chelse">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/6.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="united">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/7.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="united">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/7.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="arsenal">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/8.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="arsenal">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/8.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="realMadred">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/9.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="realMadred">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/9.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="bayern">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/10.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="bayern">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/10.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="milan">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/11.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="milan">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/11.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="roma">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/12.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="roma">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/12.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="jj">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/13.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="jj">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/13.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="city">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/14.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="city">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/14.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="barca">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/15.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-technology="barca">
+        <div class="face front"></div>
+        <div class="face back">
+          <img decoding="async" src="imgs/15.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+    <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
+    <audio id="gameOver" src="audio/wah-wah-sad.mp3" preload="auto"></audio>
+    <audio id="win" src="audio/win.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
